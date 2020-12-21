@@ -9,6 +9,7 @@ const useStyles = theme => ({
         borderBottomWidth: 1,
         borderColor: '#e0e0e0',
         borderStyle: 'solid',
+        cursor: 'pointer'
     },
 });
 
