@@ -7,7 +7,6 @@ class BoardContainer extends Component {
             <Grid
             container
             spacing={0}
-            direction="Row"
             alignItems="center"
             justify="center"
             style={{ minHeight: '100vh',minwidth: '300px' }}
