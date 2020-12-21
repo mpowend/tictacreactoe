@@ -1,12 +1,23 @@
 import React, { Component } from 'react';
-import Box from '@material-ui/core/Box';
+import Grid from '@material-ui/core/Grid';
 import Board from './Board'
 class BoardContainer extends Component {
     render() { 
         return (
-            <Box width={300} height={300}>
-                <Board/>
-            </Box> 
+            <Grid
+            container
+            spacing={0}
+            direction="Row"
+            alignItems="center"
+            justify="center"
+            style={{ minHeight: '100vh',minwidth: '300px' }}
+            >
+
+            <Grid item style={{minWidth: '300px' }}>
+                <Board />
+            </Grid>   
+
+            </Grid>
         );
     }
 }
